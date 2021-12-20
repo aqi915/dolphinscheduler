@@ -37,7 +37,7 @@ public enum ZookeeperConfiguration {
     SESSION_TIMEOUT_MS("session.timeout.ms", 30000, Integer::valueOf),
     CONNECTION_TIMEOUT_MS("connection.timeout.ms", 7500, Integer::valueOf),
 
-    BLOCK_UNTIL_CONNECTED_WAIT_MS("block.until.connected.wait", 600, Integer::valueOf),
+    BLOCK_UNTIL_CONNECTED_WAIT_MS("block.until.connected.wait", 60000, Integer::valueOf),
     ;
     private final String name;
 
