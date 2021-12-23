@@ -19,7 +19,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://t.1101.store:3306/dolphinscheduler?useUnicode=true&characterEncoding=UTF-8&useSSL=false
-    username: docker
+    username: root
     password: 123456
     hikari:
       connection-test-query: select 1
